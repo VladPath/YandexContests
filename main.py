@@ -966,7 +966,7 @@ def makeFiled(m,n,k,mines):
         filed[minei][minej] = '*'
     return filed
 
-m, n, k = map(int, input().split())
+n, m, k = map(int, input().split())
 
 mines = []
 for i in range(k):
